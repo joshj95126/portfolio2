@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Lucida Console, Courier, monospace;
+  background-color: #cfcdcc;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ff0000;
+  color: white;
+}
+
+header {
+  text-align: center;
+
+}
+
+h2  {
+  text-align: center;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px;
+}
