@@ -1,3 +1,5 @@
+/* Structure */
+
 body {
     margin: 0;
     font-family: Lucida Console, Courier, monospace;
@@ -11,8 +13,8 @@ footer {
     font-size: 25px;
 }
 
-img {
-    max-width: 400px;
+header {
+    text-align: center;
 }
 
 
@@ -44,11 +46,7 @@ img {
 }
 
 
-/*end of navigation bar*/
-
-header {
-    text-align: center;
-}
+/*Elements/Text*/
 
 h2 {
     text-align: center;
@@ -61,6 +59,10 @@ h2 {
     margin-right: auto;
     width: 50%;
     padding: 5px;
+}
+
+img {
+    max-width: 400px;
 }
 
 iframe {
