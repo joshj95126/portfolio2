@@ -75,6 +75,16 @@ iframe {
     border: 0;
 }
 
+.group {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    flex: 1;
+    margin: 10px;
+}
+
 
 /* anchor tags*/
 
