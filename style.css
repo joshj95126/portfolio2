@@ -28,6 +28,8 @@ header {
 .topnav {
     overflow: hidden;
     background-color: #000;
+    margin: 0 auto;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .topnav a,
@@ -66,7 +68,7 @@ h2 {
     padding: 5px;
 }
 
-img {
+main img {
     max-width: 400px;
 }
 
@@ -84,6 +86,36 @@ iframe {
 .item {
     flex: 1;
     margin: 10px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 80px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+    width: 100%;
+}
+
+.item a {
+    min-width: 200px;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 40px;
+    background-color: rgb(188, 199, 209);
+    color: white;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.item div {
+    display: flex;
+    flex-direction: column;
+}
+
+.item p {
+    padding: 10px;
 }
 
 
@@ -147,5 +179,9 @@ form button {
 @media (min-width: 1200px) {
     form {
         width: 90%;
+    }
+    .item div {
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
